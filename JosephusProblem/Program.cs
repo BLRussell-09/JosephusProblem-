@@ -39,6 +39,16 @@ namespace JosephusProblem
         dexStart = 0;
       }
 
+      Console.WriteLine();
+
+      if (numberBay.Count == 2)
+      {
+        numberBay.RemoveAt(1);
+        Console.WriteLine(numberBay[0]);
+      }
+
+
+
       return true;
     }
 
